@@ -1,82 +1,46 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f4f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elvis Munyao Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="intro">
+    <img src="images/profile.jpg" alt="Elvis Munyao Profile Photo" class="profile-pic">
+    <div class="intro-text">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hello, I’m Elvis Munyao, an IT Specialist passionate about web development, system analysis, and IT support.</p>
+    </div>
+  </header>
 
-/* Navigation */
-nav {
-  background: #007acc;
-  padding: 10px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  margin: 0 15px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I am currently pursuing a Diploma in Information Technology at the Technical University of Kenya. I specialize in system analysis, design, and IT support.</p>
+    </section>
 
-/* Header */
-header {
-  text-align: center;
-  padding: 20px;
-  background: #e6f2ff;
-}
-.profile-pic {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px solid #007acc;
-}
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Personal Portfolio Website</li>
+        <li>System Analysis Diagrams</li>
+        <li>Web Hosting & IT Consultancy</li>
+      </ul>
+    </section>
 
-/* Sections */
-section {
-  padding: 20px;
-}
-h2 {
-  color: #007acc;
-}
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p><strong>Email:</strong> <a href="mailto:elvismumo96@gmail.com">elvismumo96@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+254743730919">0743730919</a></p>
+    </section>
+  </main>
 
-/* Projects */
-.project-card {
-  background: white;
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 8px;
-}
-.project-card img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 5px;
-}
+  <footer>
+    <p>&copy; 2026 Elvis Munyao. All rights reserved.</p>
+  </footer>
 
-/* Footer */
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-/* Dark Mode */
-.dark-mode {
-  background-color: #222;
-  color: #eee;
-}
-.dark-mode nav {
-  background: #444;
-}
-.dark-mode h2 {
-  color: #66ccff;
-}
+  <script src="script.js"></script>
+</body>
+</html>
