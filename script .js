@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   toggleButton.textContent = "Toggle Dark Mode";
   toggleButton.className = "dark-toggle";
 
-  // Add button to the page (inside header)
+  // Add button to the header
   document.querySelector("header").appendChild(toggleButton);
 
   toggleButton.addEventListener("click", () => {
